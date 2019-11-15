@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import AboutRepetative from "./AboutRepetative";
 class About extends Component {
   render() {
     return (
@@ -21,54 +22,33 @@ class About extends Component {
 
                 <div class="mu-about-content">
                   <div class="row">
-                    <div class="col-md-3 col-sm-6">
-                      <div class="mu-about-content-single">
-                        <span class="mu-about-icon-box">
-                          <i class="icon-puzzle"></i>
-                        </span>
-                        <h4>Clean Code</h4>
-                        <p>
-                          Lorem ipsum dolor sit amet, consect adipis elit minim
-                          veniam ettis inkeras.
-                        </p>
-                      </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                      <div class="mu-about-content-single">
-                        <span class="mu-about-icon-box">
-                          <i class="icon-settings"></i>
-                        </span>
-                        <h4>Great Features</h4>
-                        <p>
-                          Lorem ipsum dolor sit amet, consect adipis elit minim
-                          veniam ettis inkeras.
-                        </p>
-                      </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                      <div class="mu-about-content-single">
-                        <span class="mu-about-icon-box">
-                          <i class="icon-screen-tablet"></i>
-                        </span>
-                        <h4>Responsive Design</h4>
-                        <p>
-                          Lorem ipsum dolor sit amet, consect adipis elit minim
-                          veniam ettis inkeras.
-                        </p>
-                      </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                      <div class="mu-about-content-single">
-                        <span class="mu-about-icon-box">
-                          <i class="icon-docs"></i>
-                        </span>
-                        <h4>Well Documented</h4>
-                        <p>
-                          Lorem ipsum dolor sit amet, consect adipis elit minim
-                          veniam ettis inkeras.
-                        </p>
-                      </div>
-                    </div>
+                    <AboutRepetative
+                      icon="icon-puzzle"
+                      heading="Clean Code"
+                      paragraph="Lorem ipsum dolor sit amet, consect adipis elit minim
+                          veniam ettis inkeras."
+                    />
+                    <AboutRepetative
+                      icon="icon-settings"
+                      heading="Great Features"
+                      paragraph="Lorem ipsum dolor sit amet, consect adipis elit minim
+                          veniam ettis inkeras."
+                    />
+                    <AboutRepetative
+                      icon="icon-screen-tablet"
+                      heading="Responsive Design"
+                      paragraph="
+                      Lorem ipsum dolor sit amet, consect adipis elit minim
+                      veniam ettis inkeras."
+                    />
+
+                    <AboutRepetative
+                      icon="icon-docs"
+                      heading="Well Documented"
+                      paragraph="
+                      Lorem ipsum dolor sit amet, consect adipis elit minim
+                      veniam ettis inkeras."
+                    />
                   </div>
                 </div>
               </div>

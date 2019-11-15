@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import PortfolioRepetative from "./PortfolioRepetative";
 class Portfolio extends Component {
   render() {
     return (
@@ -35,185 +36,70 @@ class Portfolio extends Component {
 
                 <div class="mu-portfolio-content">
                   <div class="filtr-container">
-                    <div
-                      class="col-xs-6 col-sm-4 col-md-4 filtr-item"
-                      data-category="1"
-                    >
-                      <a
-                        class="mu-imglink"
-                        href="assets/images/portfolio/img-1.jpeg"
-                        title="Web Development"
-                      >
-                        <img
-                          class="img-responsive"
-                          src="../assets/images/portfolio/img-1.jpeg"
-                          alt="image"
-                        ></img>
-                        <div class="mu-filter-item-content">
-                          <h4 class="mu-filter-item-title">WEB DEVELOPMENT</h4>
-                        </div>
-                      </a>
-                    </div>
+                    <PortfolioRepetative
+                      dataCategory="1"
+                      href="assets/images/portfolio/img-1.jpeg"
+                      title="Web Development"
+                      src="../assets/images/portfolio/img-1.jpeg"
+                      HeadingTitle="WEB DEVELOPMENT"
+                    />
 
-                    <div
-                      class="col-xs-6 col-sm-4 col-md-4 filtr-item"
-                      data-category="2"
-                    >
-                      <a
-                        class="mu-imglink"
-                        href="../assets/images/portfolio/img-2.jpeg"
-                        title="UI/UX DESIGN"
-                      >
-                        <img
-                          class="img-responsive"
-                          src="../assets/images/portfolio/img-2.jpeg"
-                          alt="image"
-                        ></img>
-                        <div class="mu-filter-item-content">
-                          <h4 class="mu-filter-item-title">UI/UX DESIGN</h4>
-                        </div>
-                      </a>
-                    </div>
-
-                    <div
-                      class="col-xs-6 col-sm-4 col-md-4 filtr-item"
-                      data-category="3"
-                    >
-                      <a
-                        class="mu-imglink"
-                        href="../assets/images/portfolio/img-3.jpeg"
-                        title="GRAPHICS DESIGN"
-                      >
-                        <img
-                          class="img-responsive"
-                          src="../assets/images/portfolio/img-3.jpeg"
-                          alt="image"
-                        ></img>
-                        <div class="mu-filter-item-content">
-                          <h4 class="mu-filter-item-title">GRAPHICS DESIGN</h4>
-                        </div>
-                      </a>
-                    </div>
-
-                    <div
-                      class="col-xs-6 col-sm-4 col-md-4 filtr-item"
-                      data-category="4"
-                    >
-                      <a
-                        class="mu-imglink"
-                        href="../assets/images/portfolio/img-4.jpeg"
-                        title="MOBILE APP"
-                      >
-                        <img
-                          class="img-responsive"
-                          src="../assets/images/portfolio/img-4.jpeg"
-                          alt="image"
-                        ></img>
-                        <div class="mu-filter-item-content">
-                          <h4 class="mu-filter-item-title">MOBILE APP</h4>
-                        </div>
-                      </a>
-                    </div>
-
-                    <div
-                      class="col-xs-6 col-sm-4 col-md-4 filtr-item"
-                      data-category="5"
-                    >
-                      <a
-                        class="mu-imglink"
-                        href="../assets/images/portfolio/img-5.jpeg"
-                        title="BRANDING"
-                      >
-                        <img
-                          class="img-responsive"
-                          src="../assets/images/portfolio/img-5.jpeg"
-                          alt="image"
-                        ></img>
-                        <div class="mu-filter-item-content">
-                          <h4 class="mu-filter-item-title">BRANDING</h4>
-                        </div>
-                      </a>
-                    </div>
-
-                    <div
-                      class="col-xs-6 col-sm-4 col-md-4 filtr-item"
-                      data-category="6"
-                    >
-                      <a
-                        class="mu-imglink"
-                        href="../assets/images/portfolio/img-6.jpeg"
-                        title="MARKETING"
-                      >
-                        <img
-                          class="img-responsive"
-                          src="../assets/images/portfolio/img-6.jpeg"
-                          alt="image"
-                        ></img>
-                        <div class="mu-filter-item-content">
-                          <h4 class="mu-filter-item-title">MARKETING</h4>
-                        </div>
-                      </a>
-                    </div>
-
-                    <div
-                      class="col-xs-6 col-sm-4 col-md-4 filtr-item"
-                      data-category="1"
-                    >
-                      <a
-                        class="mu-imglink"
-                        href="../assets/images/portfolio/img-7.jpg"
-                        title="WEB DEVELOPMENT"
-                      >
-                        <img
-                          class="img-responsive"
-                          src="../assets/images/portfolio/img-7.jpg"
-                          alt="image"
-                        ></img>
-                        <div class="mu-filter-item-content">
-                          <h4 class="mu-filter-item-title">WEB DEVELOPMENT</h4>
-                        </div>
-                      </a>
-                    </div>
-
-                    <div
-                      class="col-xs-6 col-sm-4 col-md-4 filtr-item"
-                      data-category="4"
-                    >
-                      <a
-                        class="mu-imglink"
-                        href="../assets/images/portfolio/img-8.jpeg"
-                        title="MOBILE APP"
-                      >
-                        <img
-                          class="img-responsive"
-                          src="../assets/images/portfolio/img-8.jpeg"
-                          alt="image"
-                        ></img>
-                        <div class="mu-filter-item-content">
-                          <h4 class="mu-filter-item-title">MOBILE APP</h4>
-                        </div>
-                      </a>
-                    </div>
-
-                    <div
-                      class="col-xs-6 col-sm-4 col-md-4 filtr-item"
-                      data-category="3"
-                    >
-                      <a
-                        class="mu-imglink"
-                        href="../assets/images/portfolio/img-9.jpeg"
-                        title="GRAPHICS DESIGN"
-                      >
-                        <img
-                          class="img-responsive"
-                          src="../assets/images/portfolio/img-9.jpeg"
-                          alt="image"
-                        ></img>
-                        <div class="mu-filter-item-content">
-                          <h4 class="mu-filter-item-title">GRAPHICS DESIGN</h4>
-                        </div>
-                      </a>
-                    </div>
+                    <PortfolioRepetative
+                      dataCategory="2"
+                      href="../assets/images/portfolio/img-2.jpeg"
+                      title="UI/UX DESIGN"
+                      src="../assets/images/portfolio/img-2.jpeg"
+                      HeadingTitle="UI/UX DESIGN"
+                    />
+                    <PortfolioRepetative
+                      dataCategory="3"
+                      href="../assets/images/portfolio/img-3.jpeg"
+                      title="GRAPHICS DESIGN"
+                      src="../assets/images/portfolio/img-3.jpeg"
+                      HeadingTitle="GRAPHICS DESIGN"
+                    />
+                    <PortfolioRepetative
+                      dataCategory="4"
+                      href="../assets/images/portfolio/img-4.jpeg"
+                      title="MOBILE APP"
+                      src="../assets/images/portfolio/img-4.jpeg"
+                      HeadingTitle="MOBILE APP"
+                    />
+                    <PortfolioRepetative
+                      dataCategory="5"
+                      href="../assets/images/portfolio/img-5.jpeg"
+                      title="BRANDING"
+                      src="../assets/images/portfolio/img-5.jpeg"
+                      HeadingTitle="BRANDING"
+                    />
+                    <PortfolioRepetative
+                      dataCategory="6"
+                      href="../assets/images/portfolio/img-6.jpeg"
+                      title="MARKETING"
+                      src="../assets/images/portfolio/img-6.jpeg"
+                      HeadingTitle="MARKETING"
+                    />
+                    <PortfolioRepetative
+                      dataCategory="1"
+                      href="../assets/images/portfolio/img-7.jpg"
+                      title="WEB DEVELOPMENT"
+                      src="../assets/images/portfolio/img-7.jpg"
+                      HeadingTitle="WEB DEVELOPMENT"
+                    />
+                    <PortfolioRepetative
+                      dataCategory="4"
+                      href="../assets/images/portfolio/img-8.jpeg"
+                      title="MOBILE APP"
+                      src="../assets/images/portfolio/img-8.jpeg"
+                      HeadingTitle="MOBILE APP"
+                    />
+                    <PortfolioRepetative
+                      dataCategory="3"
+                      href="../assets/images/portfolio/img-9.jpeg"
+                      title="GRAPHICS DESIGN"
+                      src="../assets/images/portfolio/img-9.jpeg"
+                      HeadingTitle="GRAPHICS DESIGN"
+                    />
                   </div>
                 </div>
               </div>

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import OurClientRepetative from "./OurClientRepetative";
 class OurClient extends Component {
   render() {
     return (
@@ -18,64 +19,14 @@ class OurClient extends Component {
                     standard dummy text ever
                   </p>
                 </div>
+                <OurClientRepetative src="../assets/images/client-logo-1.png" />
+                <OurClientRepetative src="../assets/images/client-logo-2.png" />
 
-                <div class="mu-clients-content">
-                  <div class="row">
-                    <div class="col-sm-6 col-md-2">
-                      <div class="mu-clients-content-single">
-                        <img
-                          src="../assets/images/client-logo-1.png"
-                          alt="brand image"
-                        ></img>
-                      </div>
-                    </div>
+                <OurClientRepetative src="../assets/images/client-logo-3.png" />
+                <OurClientRepetative src="../assets/images/client-logo-5.png" />
+                <OurClientRepetative src="../assets/images/client-logo-4.png" />
 
-                    <div class="col-sm-6 col-md-2">
-                      <div class="mu-clients-content-single">
-                        <img
-                          src="../assets/images/client-logo-2.png"
-                          alt="brand image"
-                        ></img>
-                      </div>
-                    </div>
-
-                    <div class="col-sm-6 col-md-2">
-                      <div class="mu-clients-content-single">
-                        <img
-                          src="../assets/images/client-logo-3.png"
-                          alt="brand image"
-                        ></img>
-                      </div>
-                    </div>
-
-                    <div class="col-sm-6 col-md-2">
-                      <div class="mu-clients-content-single">
-                        <img
-                          src="../assets/images/client-logo-5.png"
-                          alt="brand image"
-                        ></img>
-                      </div>
-                    </div>
-
-                    <div class="col-sm-6 col-md-2">
-                      <div class="mu-clients-content-single">
-                        <img
-                          src="../assets/images/client-logo-4.png"
-                          alt="brand image"
-                        ></img>
-                      </div>
-                    </div>
-
-                    <div class="col-sm-6 col-md-2">
-                      <div class="mu-clients-content-single">
-                        <img
-                          src="../assets/images/client-logo-6.png"
-                          alt="brand image"
-                        ></img>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                <OurClientRepetative src="../assets/images/client-logo-6.png" />
               </div>
             </div>
           </div>

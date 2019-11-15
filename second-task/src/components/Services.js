@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import ServicesRepetative from "./ServicesRepetative";
 class Services extends Component {
   render() {
     return (
@@ -21,106 +22,67 @@ class Services extends Component {
 
                 <div class="mu-service-content">
                   <div class="row">
-                    <div class="col-md-3 col-sm-6">
-                      <div class="mu-service-content-single">
-                        <span class="mu-service-icon-box">
-                          <i class="icon-vector"></i>
-                        </span>
-                        <h4>UI/UX Design</h4>
-                        <p>
-                          Lorem ipsum dolor sit amet, consect adipis elit minim
-                          veniam ettis inkeras.
-                        </p>
-                      </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                      <div class="mu-service-content-single">
-                        <span class="mu-service-icon-box">
-                          <i class="icon-screen-desktop"></i>
-                        </span>
-                        <h4>Web Development</h4>
-                        <p>
-                          Lorem ipsum dolor sit amet, consect adipis elit minim
-                          veniam ettis inkeras.
-                        </p>
-                      </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                      <div class="mu-service-content-single">
-                        <span class="mu-service-icon-box">
-                          <i class="icon-briefcase"></i>
-                        </span>
-                        <h4>Branding</h4>
-                        <p>
-                          Lorem ipsum dolor sit amet, consect adipis elit minim
-                          veniam ettis inkeras.
-                        </p>
-                      </div>
-                    </div>
+                    <ServicesRepetative
+                      icon="icon-vector"
+                      heading="UI/UX/RX Design"
+                      paragraph="
+                      Lorem ipsum dolor sit amet, consect adipis elit minim
+                      veniam ettis inkeras."
+                    />
 
-                    <div class="col-md-3 col-sm-6">
-                      <div class="mu-service-content-single">
-                        <span class="mu-service-icon-box">
-                          <i class="icon-screen-tablet"></i>
-                        </span>
-                        <h4>Responsive Layout</h4>
-                        <p>
-                          Lorem ipsum dolor sit amet, consect adipis elit minim
+                    <ServicesRepetative
+                      icon="icon-screen-desktop"
+                      heading="Web Development"
+                      paragraph="    Lorem ipsum dolor sit amet, consect adipis elit minim
                           veniam ettis inkeras.
-                        </p>
-                      </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                      <div class="mu-service-content-single">
-                        <span class="mu-service-icon-box">
-                          <i class="icon-screen-smartphone"></i>
-                        </span>
-                        <h4>Mobile Application</h4>
-                        <p>
-                          Lorem ipsum dolor sit amet, consect adipis elit minim
-                          veniam ettis inkeras.
-                        </p>
-                      </div>
-                    </div>
+                      "
+                    />
 
-                    <div class="col-md-3 col-sm-6">
-                      <div class="mu-service-content-single">
-                        <span class="mu-service-icon-box">
-                          <i class="icon-graph"></i>
-                        </span>
-                        <h4>Digital Marketing</h4>
-                        <p>
-                          Lorem ipsum dolor sit amet, consect adipis elit minim
+                    <ServicesRepetative
+                      icon="icon-briefcase"
+                      heading="Branding"
+                      paragraph="    Lorem ipsum dolor sit amet, consect adipis elit minim
                           veniam ettis inkeras.
-                        </p>
-                      </div>
-                    </div>
+                      "
+                    />
 
-                    <div class="col-md-3 col-sm-6">
-                      <div class="mu-service-content-single">
-                        <span class="mu-service-icon-box">
-                          <i class="icon-camrecorder"></i>
-                        </span>
-                        <h4>Background Videos</h4>
-                        <p>
-                          Lorem ipsum dolor sit amet, consect adipis elit minim
+                    <ServicesRepetative
+                      icon="icon-screen-tablet"
+                      heading="Responsive Layout"
+                      paragraph="    Lorem ipsum dolor sit amet, consect adipis elit minim
                           veniam ettis inkeras.
-                        </p>
-                      </div>
-                    </div>
+                      "
+                    />
 
-                    <div class="col-md-3 col-sm-6">
-                      <div class="mu-service-content-single">
-                        <span class="mu-service-icon-box">
-                          <i class="icon-people"></i>
-                        </span>
-                        <h4>24/7 Live Support</h4>
-                        <p>
+                    <ServicesRepetative
+                      icon="icon-screen-smartphone"
+                      heading="Mobile Application"
+                      paragraph="
                           Lorem ipsum dolor sit amet, consect adipis elit minim
+                          veniam ettis inkeras."
+                    />
+
+                    <ServicesRepetative
+                      icon="icon-graph"
+                      heading="Digital Marketing"
+                      paragraph="                          Lorem ipsum dolor sit amet, consect adipis elit minim
                           veniam ettis inkeras.
-                        </p>
-                      </div>
-                    </div>
+"
+                    />
+
+                    <ServicesRepetative
+                      icon="icon-camrecorder"
+                      heading="Background Videos"
+                      paragraph="Lorem ipsum dolor sit amet, consect adipis elit minim
+                          veniam ettis inkeras."
+                    />
+
+                    <ServicesRepetative
+                      icon="icon-people"
+                      heading="24/7 Live Support"
+                      paragraph=" Lorem ipsum dolor sit amet, consect adipis elit minim
+                      veniam ettis inkeras."
+                    />
                   </div>
                 </div>
               </div>

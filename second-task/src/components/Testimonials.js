@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import TestimonialsRepetative from "./TestimonialsRepetative";
 class Testimonials extends Component {
   render() {
     return (
@@ -13,35 +14,27 @@ class Testimonials extends Component {
 
                 <div class="mu-testimonials-block">
                   <ul class="mu-testimonial-slide">
-                    <li>
-                      <p>
-                        "Lorem Ipsum is simply dummy text of the printing and
+                    <TestimonialsRepetative
+                      pGraph="Lorem Ipsum is simply dummy text of the printing and
                         typesetting industry. Lorem Ipsum has been the
                         industry's standard dummy text ever."
-                      </p>
-                      <h5 class="mu-ct-name"> - Jhon Doe</h5>
-                      <span class="mu-ct-title">CEO, Apple Inc.</span>
-                    </li>
-
-                    <li>
-                      <p>
-                        "Lorem Ipsum is simply dummy text of the printing and
+                      Heading5="- Jhon Doe"
+                      SpanField="CEO, Apple Inc."
+                    />
+                    <TestimonialsRepetative
+                      pGraph="Lorem Ipsum is simply dummy text of the printing and
                         typesetting industry. Lorem Ipsum has been the
                         industry's standard dummy text ever."
-                      </p>
-                      <h5 class="mu-ct-name"> - Alice Boga</h5>
-                      <span class="mu-ct-title">Director, Google Inc.</span>
-                    </li>
-
-                    <li>
-                      <p>
-                        "Lorem Ipsum is simply dummy text of the printing and
+                      Heading5=" - Alice Boga"
+                      SpanField="Director, Google Inc."
+                    />
+                    <TestimonialsRepetative
+                      pGraph="Lorem Ipsum is simply dummy text of the printing and
                         typesetting industry. Lorem Ipsum has been the
                         industry's standard dummy text ever."
-                      </p>
-                      <h5 class="mu-ct-name"> - Jhon Smith</h5>
-                      <span class="mu-ct-title">Web Developer</span>
-                    </li>
+                      Heading5=" - Jhon Smith"
+                      SpanField="Web Developer"
+                    />
                   </ul>
                 </div>
               </div>
