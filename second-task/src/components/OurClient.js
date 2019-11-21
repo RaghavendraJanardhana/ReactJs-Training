@@ -4,15 +4,15 @@ class OurClient extends Component {
   render() {
     return (
       <section id="mu-clients">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="mu-clients-area">
-                <div class="mu-clients-header">
-                  <h2 class="mu-heading-title">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
+              <div className="mu-clients-area">
+                <div className="mu-clients-header">
+                  <h2 className="mu-heading-title">
                     OUR <span>CLIENTS</span>
                   </h2>
-                  <span class="mu-header-dot"></span>
+                  <span className="mu-header-dot"></span>
                   <p>
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry's

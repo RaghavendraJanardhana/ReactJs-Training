@@ -4,15 +4,15 @@ class Team extends Component {
   render() {
     return (
       <section id="mu-team">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="mu-team-area">
-                <div class="mu-team-header">
-                  <h2 class="mu-heading-title">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
+              <div className="mu-team-area">
+                <div className="mu-team-header">
+                  <h2 className="mu-heading-title">
                     OUR <span>TEAM</span>
                   </h2>
-                  <span class="mu-header-dot"></span>
+                  <span className="mu-header-dot"></span>
                   <p>
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry's
@@ -20,17 +20,22 @@ class Team extends Component {
                   </p>
                 </div>
 
-                <div class="mu-team-content">
-                  <div class="row">
+                <div className="mu-team-content">
+                  <div className="row">
                     <TeamRepetative
                       src="../assets/images/team-member-1.jpg"
-                      HeadingTitle="Alice Boga"
+                      HeadingTitle="Raghavendra J"
                       SpanField="Graphics Designer"
                     />
 
                     <TeamRepetative
                       src="../assets/images/team-member-2.jpg"
-                      HeadingTitle="Jhon Doe"
+                      HeadingTitle="Manoj kumar N"
+                      SpanField="Web Developer"
+                    />
+                    <TeamRepetative
+                      src="../assets/images/team-member-2.jpg"
+                      HeadingTitle="Kiran kashyap BK"
                       SpanField="Web Developer"
                     />
                     <TeamRepetative

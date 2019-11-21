@@ -3,8 +3,8 @@ class Footer extends Component {
   render() {
     return (
       <footer id="mu-footer" role="contentinfo">
-        <div class="container">
-          <div class="mu-footer-area">
+        <div className="container">
+          <div className="mu-footer-area">
             <p>
               &copy; Copyright{" "}
               <a rel="nofollow" href="http://markups.io">

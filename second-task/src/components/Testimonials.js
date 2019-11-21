@@ -4,16 +4,16 @@ class Testimonials extends Component {
   render() {
     return (
       <section id="mu-testimonials">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="mu-testimonials-area">
-                <h2 class="mu-heading-title">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
+              <div className="mu-testimonials-area">
+                <h2 className="mu-heading-title">
                   Client <span>Testimonials</span>
                 </h2>
 
-                <div class="mu-testimonials-block">
-                  <ul class="mu-testimonial-slide">
+                <div className="mu-testimonials-block">
+                  <ul className="mu-testimonial-slide">
                     <TestimonialsRepetative
                       pGraph="Lorem Ipsum is simply dummy text of the printing and
                         typesetting industry. Lorem Ipsum has been the

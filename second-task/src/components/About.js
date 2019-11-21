@@ -4,15 +4,15 @@ class About extends Component {
   render() {
     return (
       <section id="mu-about">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="mu-about-area">
-                <div class="mu-about-header">
-                  <h2 class="mu-heading-title">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
+              <div className="mu-about-area">
+                <div className="mu-about-header">
+                  <h2 className="mu-heading-title">
                     ABOUT <span>US</span>
                   </h2>
-                  <span class="mu-header-dot"></span>
+                  <span className="mu-header-dot"></span>
                   <p>
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry's
@@ -20,8 +20,8 @@ class About extends Component {
                   </p>
                 </div>
 
-                <div class="mu-about-content">
-                  <div class="row">
+                <div className="mu-about-content">
+                  <div className="row">
                     <AboutRepetative
                       icon="icon-puzzle"
                       heading="Clean Code"

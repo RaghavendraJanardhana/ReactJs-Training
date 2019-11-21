@@ -3,15 +3,15 @@ class Contact extends Component {
   render() {
     return (
       <section id="mu-contact">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="mu-contact-area">
-                <div class="mu-contact-header">
-                  <h2 class="mu-heading-title">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
+              <div className="mu-contact-area">
+                <div className="mu-contact-header">
+                  <h2 className="mu-heading-title">
                     CONTACT <span>US</span>
                   </h2>
-                  <span class="mu-header-dot"></span>
+                  <span className="mu-header-dot"></span>
                   <p>
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry's
@@ -19,55 +19,55 @@ class Contact extends Component {
                   </p>
                 </div>
 
-                <div class="mu-contact-content">
-                  <div class="row">
-                    <div class="col-md-8">
-                      <div class="mu-contact-left">
+                <div className="mu-contact-content">
+                  <div className="row">
+                    <div className="col-md-8">
+                      <div className="mu-contact-left">
                         <div id="form-messages"></div>
                         <form
                           id="ajax-contact"
                           method="post"
                           action="mailer.php"
-                          class="mu-contact-form"
+                          className="mu-contact-form"
                         >
-                          <div class="form-group">
+                          <div className="form-group">
                             <input
                               type="text"
-                              class="form-control"
+                              className="form-control"
                               placeholder="Name"
                               id="name"
                               name="name"
                               required
                             ></input>
                           </div>
-                          <div class="form-group">
+                          <div className="form-group">
                             <input
                               type="email"
-                              class="form-control"
+                              className="form-control"
                               placeholder="Enter Email"
                               id="email"
                               name="email"
                               required
                             ></input>
                           </div>
-                          <div class="form-group">
+                          <div className="form-group">
                             <textarea
-                              class="form-control"
+                              className="form-control"
                               placeholder="Message"
                               id="message"
                               name="message"
                               required
                             ></textarea>
                           </div>
-                          <button type="submit" class="mu-send-msg-btn">
+                          <button type="submit" className="mu-send-msg-btn">
                             <span>SUBMIT</span>
                           </button>
                         </form>
                       </div>
                     </div>
 
-                    <div class="col-md-4">
-                      <div class="mu-contact-right">
+                    <div className="col-md-4">
+                      <div className="mu-contact-right">
                         <h4>Biziness</h4>
                         <p>
                           Lorem ipsum dolor sit amet, consectetur adipisicing
@@ -76,31 +76,31 @@ class Contact extends Component {
                         </p>
                         <address>
                           <p>
-                            <i class="icon-location-pin"></i>Dooley Branch Rd
-                            Millen, GA 30442, USA
+                            <i className="icon-location-pin"></i>Dooley Branch
+                            Rd Millen, GA 30442, USA
                           </p>
                           <p>
-                            <i class="icon-envelope"></i>contact@domain.com
+                            <i className="icon-envelope"></i>contact@domain.com
                           </p>
                           <p>
-                            <i class="icon-phone"></i>+90 987 678 9834
+                            <i className="icon-phone"></i>+90 987 678 9834
                           </p>
                         </address>
-                        <div class="mu-social-media">
+                        <div className="mu-social-media">
                           <a href="#">
-                            <i class="icon-social-facebook"></i>
+                            <i className="icon-social-facebook"></i>
                           </a>
                           <a href="#">
-                            <i class="icon-social-twitter"></i>
+                            <i className="icon-social-twitter"></i>
                           </a>
                           <a href="#">
-                            <i class="icon-social-google"></i>
+                            <i className="icon-social-google"></i>
                           </a>
                           <a href="#">
-                            <i class="icon-social-linkedin"></i>
+                            <i className="icon-social-linkedin"></i>
                           </a>
                           <a href="#">
-                            <i class="icon-social-youtube"></i>
+                            <i className="icon-social-youtube"></i>
                           </a>
                         </div>
                       </div>

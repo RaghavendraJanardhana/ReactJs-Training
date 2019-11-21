@@ -4,15 +4,15 @@ class Portfolio extends Component {
   render() {
     return (
       <section id="mu-portfolio">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="mu-portfolio-area">
-                <div class="mu-portfolio-header">
-                  <h2 class="mu-heading-title">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
+              <div className="mu-portfolio-area">
+                <div className="mu-portfolio-header">
+                  <h2 className="mu-heading-title">
                     OUR <span>PORTFOLIO</span>
                   </h2>
-                  <span class="mu-header-dot"></span>
+                  <span className="mu-header-dot"></span>
                   <p>
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry's
@@ -20,9 +20,9 @@ class Portfolio extends Component {
                   </p>
                 </div>
 
-                <div class="mu-portfolio-filter-area">
-                  <ul class="mu-simplefilter">
-                    <li class="active" data-filter="all">
+                <div className="mu-portfolio-filter-area">
+                  <ul className="mu-simplefilter">
+                    <li className="active" data-filter="all">
                       All
                     </li>
                     <li data-filter="1">Web App</li>
@@ -34,8 +34,8 @@ class Portfolio extends Component {
                   </ul>
                 </div>
 
-                <div class="mu-portfolio-content">
-                  <div class="filtr-container">
+                <div className="mu-portfolio-content">
+                  <div className="filtr-container">
                     <PortfolioRepetative
                       dataCategory="1"
                       href="assets/images/portfolio/img-1.jpeg"

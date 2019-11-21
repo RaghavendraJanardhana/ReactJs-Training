@@ -4,15 +4,15 @@ class Services extends Component {
   render() {
     return (
       <section id="mu-service">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="mu-service-area">
-                <div class="mu-service-header">
-                  <h2 class="mu-heading-title">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
+              <div className="mu-service-area">
+                <div className="mu-service-header">
+                  <h2 className="mu-heading-title">
                     OUR <span>SERVICES</span>
                   </h2>
-                  <span class="mu-header-dot"></span>
+                  <span className="mu-header-dot"></span>
                   <p>
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry's
@@ -20,8 +20,8 @@ class Services extends Component {
                   </p>
                 </div>
 
-                <div class="mu-service-content">
-                  <div class="row">
+                <div className="mu-service-content">
+                  <div className="row">
                     <ServicesRepetative
                       icon="icon-vector"
                       heading="UI/UX/RX Design"
