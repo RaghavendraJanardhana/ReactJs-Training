@@ -21,9 +21,12 @@ function App() {
             </li>
             <li>
               <NavLink
-                exact
                 activeClassName="active-link"
-                to={{ pathname: "/Products", hash: "recent" }}
+                to={{
+                  pathname: "/Products",
+                  hash: "recent",
+                  search: "a=6&b=25"
+                }}
               >
                 Products
               </NavLink>
@@ -33,6 +36,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/Products" component={Products} />
+          <Route path="/Products/:id" component={Products} />
         </Switch>
       </BrowserRouter>
     </div>
