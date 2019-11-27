@@ -4,6 +4,7 @@ import "./App.css";
 //import Input from "./components/Input";
 //import Repeatative from "./components/Repetative";
 //import Parent from "./components/Parent";
+import Helloo from "./components/Hello/Helloo";
 import AdvSimpleForm from "./components/AdvSampleForm";
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Repeatative name="Brain Lara" />
       <Parent /> */}
       <AdvSimpleForm />
+      <Helloo />
     </div>
   );
 }

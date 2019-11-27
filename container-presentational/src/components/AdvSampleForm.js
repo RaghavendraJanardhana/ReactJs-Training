@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import AdvInput from "./AdvInput";
+import Helloo from "./Hello/Helloo";
+
 const formData = {
   username: {
     elementType: "input",
@@ -76,10 +78,27 @@ class AdvSimpleForm extends Component {
   };
   inputHandler(inputIdentifier, event) {
     console.log(inputIdentifier, event.target.value);
-    this.setState({
-      [inputIdentifier]: event.target.value
-    });
+
+    if (event.target.type === "checkbox") {
+      let hobies = [...this.state[inputIdentifier]];
+      if (event.target.checked) {
+        hobies.push(event.target.value);
+      } else {
+        hobies = [...hobies].filter(
+          (list, index) => list !== event.target.value
+        );
+      }
+
+      this.setState({
+        [inputIdentifier]: hobies
+      });
+    } else {
+      this.setState({
+        [inputIdentifier]: event.target.value
+      });
+    }
   }
+
   submitHandler(event) {
     event.preventDefault();
     console.log(this.state);
@@ -94,7 +113,7 @@ class AdvSimpleForm extends Component {
           elementValue={this.state.username}
           elementChanged={this.inputHandler.bind(this, "username")}
         />
-        <br />
+        {/* <br />
         <h4>Select Drop dowm</h4>
         <AdvInput
           elementType={formData.country.elementType}
@@ -124,7 +143,8 @@ class AdvSimpleForm extends Component {
           elementConfiguration={formData.comment.elementConfiguration}
           elementValue={this.state.accommentcept}
           elementChanged={this.inputHandler.bind(this, "comment")}
-        />
+        /> */}
+        <Helloo />
         <h4>Submit form </h4>
         <button type="submit">submit</button>
       </form>
